@@ -37,7 +37,7 @@ function got_poses(results){
     rightWristx= results[0].pose.rightWrist.x;
     leftWristx= results[0].pose.leftWrist.x;
     difference= floor(leftWristx-rightWristx)
-    document.getElementById("size").innerHTML="The width and height of the square in realtime is "+difference;
+    document.getElementById("size").innerHTML="The size of the text in realtime is "+difference;
 
     }
 }
